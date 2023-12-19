@@ -4,3 +4,5 @@ RewriteBase /manaliz/
 RewriteRule ^ornek index.php?sayfa=ornek [NC]
 RewriteRule ^giris-yap giris.php [NC]
 RewriteRule ^cikis index.php?sayfa=cikis [NC]
+RewriteRule ^sifre-degistir index.php?sayfa=sifre-degistir [NC]
+RewriteRule ^sifremi-unuttum sifremi-unuttum.php [NC]
