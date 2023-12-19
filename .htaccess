@@ -1,0 +1,6 @@
+Options -indexes
+RewriteEngine On
+RewriteBase /manaliz/
+RewriteRule ^ornek index.php?sayfa=ornek [NC]
+RewriteRule ^giris-yap giris.php [NC]
+RewriteRule ^cikis index.php?sayfa=cikis [NC]
