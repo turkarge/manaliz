@@ -15,4 +15,6 @@ RewriteRule ^sifremi-unuttum sifremi-unuttum.php [NC]
 RewriteRule ^giris-yap giris.php [NC]
 RewriteRule ^cikis index.php?sayfa=cikis [NC]
 
+RewriteRule ^profil index.php?sayfa=profil [NC]
+
 RewriteRule ^404 index.php?sayfa=404 [NC]

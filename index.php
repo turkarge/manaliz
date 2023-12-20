@@ -6,14 +6,11 @@ define("SAYFA", "include/");
 define("SINIF", "class/");
 include_once(DATA . "baglanti.php");
 define("SITE", $site_url);
-if(!empty($_SESSION["ID"]) && !empty($_SESSION["adsoyad"]) && !empty($_SESSION["mail"]))
-{
+if (!empty($_SESSION["ID"]) && !empty($_SESSION["adsoyad"]) && !empty($_SESSION["mail"])) {
 
-}
-else
-{
+} else {
   ?>
-    <meta http-equiv="refresh" content="0,url=<?=SITE?>giris-yap">
+  <meta http-equiv="refresh" content="0,url=<?= SITE ?>giris-yap">
   <?php
   exit();
 }
@@ -59,7 +56,6 @@ else
   <script src="<?= $site_url ?>plugins/jquery/jquery.min.js"></script>
   <script src="<?= $site_url ?>plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="<?= $site_url ?>dist/js/adminlte.min.js"></script>
-  <script src="<?= $site_url ?>dist/js/demo.js"></script>
 </body>
 
 </html>
