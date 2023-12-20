@@ -1,11 +1,18 @@
 Options -indexes
 RewriteEngine On
 RewriteBase /manaliz/
+
 RewriteRule ^proje-listesi index.php?sayfa=projeler [NC]
 RewriteRule ^proje-ekle index.php?sayfa=proje-ekle [NC]
 RewriteRule ^proje-detay index.php?sayfa=proje-detay [NC]
 RewriteRule ^proje-duzenle index.php?sayfa=proje-duzenle [NC]
-RewriteRule ^giris-yap giris.php [NC]
-RewriteRule ^cikis index.php?sayfa=cikis [NC]
+
+RewriteRule ^stok-kartlari index.php?sayfa=stok-kartlari [NC]
+
 RewriteRule ^sifre-degistir index.php?sayfa=sifre-degistir [NC]
 RewriteRule ^sifremi-unuttum sifremi-unuttum.php [NC]
+
+RewriteRule ^giris-yap giris.php [NC]
+RewriteRule ^cikis index.php?sayfa=cikis [NC]
+
+RewriteRule ^404 index.php?sayfa=404 [NC]

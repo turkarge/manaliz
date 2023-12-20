@@ -37,7 +37,7 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="<?=$site_url?>" class="nav-link">
+              <a href="<?=$site_url?>proje-ekle" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Yeni Proje</p>
                 </a>
@@ -61,7 +61,7 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="../charts/chartjs.html" class="nav-link">
+              <a href="<?=$site_url?>stok-kartlari" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Stok Kartları</p>
                 </a>

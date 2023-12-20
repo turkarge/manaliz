@@ -47,7 +47,7 @@ else
       if (file_exists(SAYFA . $sayfa)) {
         include_once(SAYFA . $sayfa);
       } else {
-        include_once(SAYFA . "home.php");
+        include_once(SAYFA . "404.php");
       }
     } else {
       include_once(SAYFA . "home.php");
