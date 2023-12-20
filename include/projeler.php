@@ -104,17 +104,17 @@
                                 <a class="btn btn-primary btn-sm" href="#">
                                     <i class="fas fa-folder">
                                     </i>
-                                    View
+                                    Görüntüle
                                 </a>
                                 <a class="btn btn-info btn-sm" href="#">
                                     <i class="fas fa-pencil-alt">
                                     </i>
-                                    Edit
+                                    Düzenle
                                 </a>
                                 <a class="btn btn-danger btn-sm" href="#">
                                     <i class="fas fa-trash">
                                     </i>
-                                    Delete
+                                    Sil
                                 </a>
                             </td>
                         </tr>
@@ -160,17 +160,17 @@
                                 <a class="btn btn-primary btn-sm" href="#">
                                     <i class="fas fa-folder">
                                     </i>
-                                    View
+                                    Görüntüle
                                 </a>
                                 <a class="btn btn-info btn-sm" href="#">
                                     <i class="fas fa-pencil-alt">
                                     </i>
-                                    Edit
+                                    Düzenle
                                 </a>
                                 <a class="btn btn-danger btn-sm" href="#">
                                     <i class="fas fa-trash">
                                     </i>
-                                    Delete
+                                    Sil
                                 </a>
                             </td>
                         </tr>
@@ -220,17 +220,17 @@
                                 <a class="btn btn-primary btn-sm" href="#">
                                     <i class="fas fa-folder">
                                     </i>
-                                    View
+                                    Görüntüle
                                 </a>
                                 <a class="btn btn-info btn-sm" href="#">
                                     <i class="fas fa-pencil-alt">
                                     </i>
-                                    Edit
+                                    Düzenle
                                 </a>
                                 <a class="btn btn-danger btn-sm" href="#">
                                     <i class="fas fa-trash">
                                     </i>
-                                    Delete
+                                    Sil
                                 </a>
                             </td>
                         </tr>
@@ -321,17 +321,17 @@
                                 <a class="btn btn-primary btn-sm" href="#">
                                     <i class="fas fa-folder">
                                     </i>
-                                    View
+                                    Görüntüle
                                 </a>
                                 <a class="btn btn-info btn-sm" href="#">
                                     <i class="fas fa-pencil-alt">
                                     </i>
-                                    Edit
+                                    Düzenle
                                 </a>
                                 <a class="btn btn-danger btn-sm" href="#">
                                     <i class="fas fa-trash">
                                     </i>
-                                    Delete
+                                    Sil
                                 </a>
                             </td>
                         </tr>
@@ -381,17 +381,17 @@
                                 <a class="btn btn-primary btn-sm" href="#">
                                     <i class="fas fa-folder">
                                     </i>
-                                    View
+                                    Görüntüle
                                 </a>
                                 <a class="btn btn-info btn-sm" href="#">
                                     <i class="fas fa-pencil-alt">
                                     </i>
-                                    Edit
+                                    Düzenle
                                 </a>
                                 <a class="btn btn-danger btn-sm" href="#">
                                     <i class="fas fa-trash">
                                     </i>
-                                    Delete
+                                    Sil
                                 </a>
                             </td>
                         </tr>
@@ -445,17 +445,17 @@
                                 <a class="btn btn-primary btn-sm" href="#">
                                     <i class="fas fa-folder">
                                     </i>
-                                    View
+                                    Görüntüle
                                 </a>
                                 <a class="btn btn-info btn-sm" href="#">
                                     <i class="fas fa-pencil-alt">
                                     </i>
-                                    Edit
+                                    Düzenle
                                 </a>
                                 <a class="btn btn-danger btn-sm" href="#">
                                     <i class="fas fa-trash">
                                     </i>
-                                    Delete
+                                    Sil
                                 </a>
                             </td>
                         </tr>
