@@ -67,7 +67,7 @@
                   <h4>Recent Activity</h4>
                     <div class="post">
                       <div class="user-block">
-                        <img class="img-circle img-bordered-sm" src="<?= $site_url ?>dist/img/user1-128x128.jpg" alt="user image">
+                        <img class="img-circle img-bordered-sm" src="<?= SITE ?>dist/img/user1-128x128.jpg" alt="user image">
                         <span class="username">
                           <a href="#">Jonathan Burke Jr.</a>
                         </span>
@@ -87,7 +87,7 @@
 
                     <div class="post clearfix">
                       <div class="user-block">
-                        <img class="img-circle img-bordered-sm" src="<?= $site_url ?>dist/img/user7-128x128.jpg" alt="User Image">
+                        <img class="img-circle img-bordered-sm" src="<?= SITE ?>dist/img/user7-128x128.jpg" alt="User Image">
                         <span class="username">
                           <a href="#">Sarah Ross</a>
                         </span>
@@ -106,7 +106,7 @@
 
                     <div class="post">
                       <div class="user-block">
-                        <img class="img-circle img-bordered-sm" src="<?= $site_url ?>dist/img/user1-128x128.jpg" alt="user image">
+                        <img class="img-circle img-bordered-sm" src="<?= SITE ?>dist/img/user1-128x128.jpg" alt="user image">
                         <span class="username">
                           <a href="#">Jonathan Burke Jr.</a>
                         </span>

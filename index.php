@@ -4,8 +4,15 @@
 define("DATA", "data/");
 define("SAYFA", "include/");
 define("SINIF", "class/");
-include_once(DATA . "baglanti.php");
-define("SITE", $site_url);
+include_once("class/FL.php");
+include_once("class/DB.php");
+include_once("class/User.php");
+$settings = DB::table("settings")->where("ID", 1)->first();
+define("SITE", $settings->url);
+define("TITLE", $settings->title);
+define("VER", $settings->ver);
+//include_once(DATA . "baglanti.php");
+//define("SITE", $site_url);
 if (!empty($_SESSION["ID"]) && !empty($_SESSION["adsoyad"]) && !empty($_SESSION["mail"])) {
 
 } else {
@@ -23,13 +30,13 @@ if (!empty($_SESSION["ID"]) && !empty($_SESSION["adsoyad"]) && !empty($_SESSION[
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>
-    <?= $site_baslik ?>
+    <?= TITLE ?>
   </title>
 
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
-  <link rel="stylesheet" href="<?= $site_url ?>plugins/fontawesome-free/css/all.min.css">
-  <link rel="stylesheet" href="<?= $site_url ?>dist/css/adminlte.min.css">
+  <link rel="stylesheet" href="<?= SITE ?>plugins/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="<?= SITE ?>dist/css/adminlte.min.css">
 </head>
 
 <body class="hold-transition sidebar-mini layout-navbar-fixed">
@@ -53,9 +60,9 @@ if (!empty($_SESSION["ID"]) && !empty($_SESSION["adsoyad"]) && !empty($_SESSION[
     include_once(DATA . "footer.php");
     ?>
   </div>
-  <script src="<?= $site_url ?>plugins/jquery/jquery.min.js"></script>
-  <script src="<?= $site_url ?>plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="<?= $site_url ?>dist/js/adminlte.min.js"></script>
+  <script src="<?= SITE ?>plugins/jquery/jquery.min.js"></script>
+  <script src="<?= SITE ?>plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="<?= SITE ?>dist/js/adminlte.min.js"></script>
 </body>
 
 </html>

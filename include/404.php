@@ -9,7 +9,7 @@
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="#">Ana Sayfa</a></li>
-              <li class="breadcrumb-item active">404 EHata</li>
+              <li class="breadcrumb-item active">404 Hata</li>
             </ol>
           </div>
         </div>

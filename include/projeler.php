@@ -71,19 +71,19 @@
                                 <ul class="list-inline">
                                     <li class="list-inline-item">
                                         <img alt="Avatar" class="table-avatar"
-                                            src="<?= $site_url ?>dist/img/avatar.png">
+                                            src="<?= SITE ?>dist/img/avatar.png">
                                     </li>
                                     <li class="list-inline-item">
                                         <img alt="Avatar" class="table-avatar"
-                                            src="<?= $site_url ?>dist/img/avatar2.png">
+                                            src="<?= SITE ?>dist/img/avatar2.png">
                                     </li>
                                     <li class="list-inline-item">
                                         <img alt="Avatar" class="table-avatar"
-                                            src="<?= $site_url ?>dist/img/avatar3.png">
+                                            src="<?= SITE ?>dist/img/avatar3.png">
                                     </li>
                                     <li class="list-inline-item">
                                         <img alt="Avatar" class="table-avatar"
-                                            src="<?= $site_url ?>dist/img/avatar4.png">
+                                            src="<?= SITE ?>dist/img/avatar4.png">
                                     </li>
                                 </ul>
                             </td>
@@ -135,11 +135,11 @@
                                 <ul class="list-inline">
                                     <li class="list-inline-item">
                                         <img alt="Avatar" class="table-avatar"
-                                            src="<?= $site_url ?>dist/img/avatar.png">
+                                            src="<?= SITE ?>dist/img/avatar.png">
                                     </li>
                                     <li class="list-inline-item">
                                         <img alt="Avatar" class="table-avatar"
-                                            src="<?= $site_url ?>dist/img/avatar2.png">
+                                            src="<?= SITE ?>dist/img/avatar2.png">
                                     </li>
                                 </ul>
                             </td>
@@ -191,15 +191,15 @@
                                 <ul class="list-inline">
                                     <li class="list-inline-item">
                                         <img alt="Avatar" class="table-avatar"
-                                            src="<?= $site_url ?>dist/img/avatar.png">
+                                            src="<?= SITE ?>dist/img/avatar.png">
                                     </li>
                                     <li class="list-inline-item">
                                         <img alt="Avatar" class="table-avatar"
-                                            src="<?= $site_url ?>dist/img/avatar2.png">
+                                            src="<?= SITE ?>dist/img/avatar2.png">
                                     </li>
                                     <li class="list-inline-item">
                                         <img alt="Avatar" class="table-avatar"
-                                            src="<?= $site_url ?>dist/img/avatar3.png">
+                                            src="<?= SITE ?>dist/img/avatar3.png">
                                     </li>
                                 </ul>
                             </td>
@@ -296,11 +296,11 @@
                                 <ul class="list-inline">
                                     <li class="list-inline-item">
                                         <img alt="Avatar" class="table-avatar"
-                                            src="<?= $site_url ?>dist/img/avatar4.png">
+                                            src="<?= SITE ?>dist/img/avatar4.png">
                                     </li>
                                     <li class="list-inline-item">
                                         <img alt="Avatar" class="table-avatar"
-                                            src="<?= $site_url ?>dist/img/avatar5.png">
+                                            src="<?= SITE ?>dist/img/avatar5.png">
                                     </li>
                                 </ul>
                             </td>
@@ -352,15 +352,15 @@
                                 <ul class="list-inline">
                                     <li class="list-inline-item">
                                         <img alt="Avatar" class="table-avatar"
-                                            src="<?= $site_url ?>dist/img/avatar.png">
+                                            src="<?= SITE ?>dist/img/avatar.png">
                                     </li>
                                     <li class="list-inline-item">
                                         <img alt="Avatar" class="table-avatar"
-                                            src="<?= $site_url ?>dist/img/avatar3.png">
+                                            src="<?= SITE ?>dist/img/avatar3.png">
                                     </li>
                                     <li class="list-inline-item">
                                         <img alt="Avatar" class="table-avatar"
-                                            src="<?= $site_url ?>dist/img/avatar4.png">
+                                            src="<?= SITE ?>dist/img/avatar4.png">
                                     </li>
                                 </ul>
                             </td>
@@ -412,19 +412,19 @@
                                 <ul class="list-inline">
                                     <li class="list-inline-item">
                                         <img alt="Avatar" class="table-avatar"
-                                            src="<?= $site_url ?>dist/img/avatar.png">
+                                            src="<?= SITE ?>dist/img/avatar.png">
                                     </li>
                                     <li class="list-inline-item">
                                         <img alt="Avatar" class="table-avatar"
-                                            src="<?= $site_url ?>dist/img/avatar3.png">
+                                            src="<?= SITE ?>dist/img/avatar3.png">
                                     </li>
                                     <li class="list-inline-item">
                                         <img alt="Avatar" class="table-avatar"
-                                            src="<?= $site_url ?>dist/img/avatar4.png">
+                                            src="<?= SITE ?>dist/img/avatar4.png">
                                     </li>
                                     <li class="list-inline-item">
                                         <img alt="Avatar" class="table-avatar"
-                                            src="<?= $site_url ?>dist/img/avatar5.png">
+                                            src="<?= SITE ?>dist/img/avatar5.png">
                                     </li>
                                 </ul>
                             </td>

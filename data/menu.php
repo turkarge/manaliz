@@ -1,9 +1,9 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
   <a href="<?= SITE ?>" class="brand-link elevation-4">
-    <img src="dist/img/AdminLTELogo.png" alt="<?= $site_baslik ?>" class="brand-image img-circle elevation-3"
+    <img src="dist/img/AdminLTELogo.png" alt="<?= TITLE ?>" class="brand-image img-circle elevation-3"
       style="opacity: .8">
     <span class="brand-text font-weight-light">
-      <?= $site_baslik ?>
+      <?= TITLE ?>
     </span>
   </a>
 
@@ -42,13 +42,13 @@
           </a>
           <ul class="nav nav-treeview">
             <li class="nav-item">
-              <a href="<?= $site_url ?>proje-ekle" class="nav-link">
+              <a href="<?= SITE ?>proje-ekle" class="nav-link">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Yeni Proje</p>
               </a>
             </li>
             <li class="nav-item">
-              <a href="<?= $site_url ?>proje-listesi" class="nav-link">
+              <a href="<?= SITE ?>proje-listesi" class="nav-link">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Proje Listesi</p>
               </a>
@@ -66,7 +66,7 @@
           </a>
           <ul class="nav nav-treeview">
             <li class="nav-item">
-              <a href="<?= $site_url ?>stok-kartlari" class="nav-link">
+              <a href="<?= SITE ?>stok-kartlari" class="nav-link">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Stok Kartları</p>
               </a>
@@ -84,7 +84,7 @@
           </a>
           <ul class="nav nav-treeview">
             <li class="nav-item">
-            <a href="<?= $site_url ?>ayarlar" class="nav-link">
+            <a href="<?= SITE ?>ayarlar" class="nav-link">
                 <i class="fas fa-cog nav-icon"></i>
                 <p>Portal Ayarları</p>
               </a>

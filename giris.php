@@ -6,10 +6,9 @@ define("SAYFA", "include/");
 define("SINIF", "class/");
 include_once(DATA . "baglanti.php");
 define("SITE", $site_url);
-if(!empty($_SESSION["ID"]) && !empty($_SESSION["adsoyad"]) && !empty($_SESSION["mail"]))
-{
+if (!empty($_SESSION["ID"]) && !empty($_SESSION["adsoyad"]) && !empty($_SESSION["mail"])) {
   ?>
-    <meta http-equiv="refresh" content="0,url=<?=SITE?>">
+  <meta http-equiv="refresh" content="0,url=<?= SITE ?>">
   <?php
   exit();
 }
@@ -41,35 +40,26 @@ if(!empty($_SESSION["ID"]) && !empty($_SESSION["adsoyad"]) && !empty($_SESSION["
       <div class="card-body login-card-body">
         <p class="login-box-msg">Lütfen oturum açın</p>
         <?php
-        if($_POST)
-        {
-          if(!empty($_POST["kullanici"]) && !empty($_POST["sifre"]))
-          {
-            $kullanici=$VT->filter($_POST["kullanici"]);
-            $sifre=md5($VT->filter($_POST["sifre"]));
-            $kontrol=$VT->VeriGetir("kullanicilar","WHERE kullanici=? AND sifre=?",array($kullanici,$sifre),"ORDER BY ID ASC",1);
-            if($kontrol!=false)
-            {
-              $_SESSION["kullanici"]=$kontrol[0]["kullanici"];
-              $_SESSION["adsoyad"]=$kontrol[0]["adsoyad"];
-              $_SESSION["mail"]=$kontrol[0]["mail"];
-              $_SESSION["ID"]=$kontrol[0]["ID"];
+        if ($_POST) {
+          if (!empty($_POST["kullanici"]) && !empty($_POST["sifre"])) {
+            $kullanici = $VT->filter($_POST["kullanici"]);
+            $sifre = md5($VT->filter($_POST["sifre"]));
+            $kontrol = $VT->VeriGetir("kullanicilar", "WHERE kullanici=? AND sifre=?", array($kullanici, $sifre), "ORDER BY ID ASC", 1);
+            if ($kontrol != false) {
+              $_SESSION["kullanici"] = $kontrol[0]["kullanici"];
+              $_SESSION["adsoyad"] = $kontrol[0]["adsoyad"];
+              $_SESSION["mail"] = $kontrol[0]["mail"];
+              $_SESSION["ID"] = $kontrol[0]["ID"];
               ?>
-              <meta http-equiv="refresh" content="0;url=<?=SITE?>" />
+              <meta http-equiv="refresh" content="0;url=<?= SITE ?>" />
               <?php
               exit();
 
-            }
-            else
-            {
+            } else {
               echo '<div class="alert alert-danger">Kullanıcı adı eya şifre hatalıdır</div>';
             }
-
-          }
-          else
-          {
+          } else {
             echo '<div class="alert alert-danger">Boş bıraktığınız alanları doldurunuz.</div>';
-
           }
         }
         ?>

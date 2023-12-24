@@ -40,7 +40,7 @@
       </a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="<?= $site_url ?>cikis" role="button">
+      <a class="nav-link" href="<?= SITE ?>cikis" role="button">
         <i class="fas fa-sign-out-alt"></i>
       </a>
     </li>
