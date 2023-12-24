@@ -2,9 +2,9 @@
 class VT
 {
     var $sunucu = "localhost";
-    var $user = "celikerler_ma";
-    var $password = "CelMa753!";
-    var $dbname = "celikerler_ma";
+    var $user = "root";
+    var $password = "";
+    var $dbname = "manaliz";
     var $baglanti;
     function __construct()
     {
@@ -60,5 +60,4 @@ class VT
         return $val;
     }
 }
-
 ?>

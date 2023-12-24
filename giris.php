@@ -1,5 +1,4 @@
 <?php
-echo "selam";
 @session_start();
 @ob_start();
 define("DATA", "data/");
