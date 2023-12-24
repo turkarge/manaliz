@@ -4,12 +4,12 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1>Project Add</h1>
+            <h1>Yeni Proje</h1>
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
-              <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">Project Add</li>
+              <li class="breadcrumb-item"><a href="<?= SITE ?>">Ana Sayfa</a></li>
+              <li class="breadcrumb-item active">Yeni Proje</li>
             </ol>
           </div>
         </div>
@@ -22,7 +22,7 @@
         <div class="col-md-6">
           <div class="card card-primary">
             <div class="card-header">
-              <h3 class="card-title">General</h3>
+              <h3 class="card-title">Müşteri Bilgileri</h3>
 
               <div class="card-tools">
                 <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
@@ -64,7 +64,7 @@
         <div class="col-md-6">
           <div class="card card-secondary">
             <div class="card-header">
-              <h3 class="card-title">Budget</h3>
+              <h3 class="card-title">Proje Bilgileri</h3>
 
               <div class="card-tools">
                 <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
@@ -93,8 +93,8 @@
       </div>
       <div class="row">
         <div class="col-12">
-          <a href="#" class="btn btn-secondary">Cancel</a>
-          <input type="submit" value="Create new Project" class="btn btn-success float-right">
+          <a href="#" class="btn btn-secondary">İptal</a>
+          <input type="submit" value="Yeni Proje Oluştur" class="btn btn-success float-right">
         </div>
       </div>
     </section>
